@@ -1,0 +1,110 @@
+filmMode:enable;
+changeBg:街道/IMG_2817.JPG -next;
+bgm:悲伤/chinkou.mp3 -enter=200 -volume=50;
+:街道灰扑扑的，毫无颜色一般。;
+:破裂四散的瓦砾不知何时刺入我的手臂，隐隐作痛。;
+:我只能无力地拿着最后的食物，拼命想往嘴里塞。;
+:那块硬到可以用以砌砖的面包属实令人难以下咽，上面还分布着些许的霉菌。;
+:但这是最后的食物了。;
+:稍微去掉霉菌部分后，我大口吞咽着食物，狼吞虎咽地似是要将所有东西吞入腹中。;
+:这个面包，或许还能让我撑过这两天。;
+:我无神地看着布满伤口的手，这样的日子还要过多久？;
+:为什么我会落到这般地步？;
+:或许……因为戈巴尔斯是个被遗忘的地方，而我也如同这座死城一般。;
+:我总觉得……今昔的明天是昨日的我，时间是永长的环，循环往复。;
+:直到……;
+playEffect:car/車・クラクション01.mp3 -volume=60;
+changeBg:街道/euc_BwYw9ATADGAmIDMEEZYEMAsUkHYBsGARkQKxoCmhCUAnGiYYvNFMsKNAHQBWADuQHMgA.jpeg -next;
+:某天，寂静的街道被汽车的引擎声打破。;
+:前照灯的光像是一把利剑，冲破这街区的腐烂和破败。;
+:随之而来的，还有那温和而浑浊的眼。;
+:……;
+setTextbox:hide;
+filmMode:none;
+bgm: -enter=500;
+setAnimation:shockwaveIn -target=stage-main -next;
+changeBg:房间/pexels-pixelpainter-35839979.jpg -transform={"position":{"x":57,"y":-227},"scale":{"x":1.059,"y":1.059}} -next;
+playEffect:water/下載.mp3 -volume=60;
+:我醒了。;
+setTextbox:on;
+:曾经的记忆总是萦绕在脑中，挥之不去，又在某个夜晚朝我袭来。;
+:这不是第一次了。;
+:想想过去那种生活，感觉现在的我如置天堂一般。;
+playEffect:human/ドア・ノック05.mp3 -volume=60;
+:敲门声打断了我突如其来的多愁善感。;
+:那沉稳沙哑的声音又在一天清晨如常唤醒了我。;
+:那是我的养父——托马斯·麦克雷，是从污泥中将我拉出的人。;
+bgm:欢快/irassyaimase.mp3 -enter=200 -volume=50;
+托马斯·麦克雷:“莱特，该起床了。”
+:他的声音总是那么的和缓，沉稳，像是筑起围墙的砖。;
+miniAvatar:莱特/莱特-常服/1-happy.PNG;
+莱特·斯图尔特:“好的！”;
+miniAvatar:none;
+:我边吼叫着边冲出房门。;
+playEffect:human/足音・スポーツシューズで走る.mp3 -volume=60;
+changeBg:房间/pexels-introspectivedsgn-9890644.jpg -next;
+miniAvatar:莱特/莱特-常服/1-happy.PNG;
+莱特·斯图尔特:“托马斯——我们今天吃什么！”;
+miniAvatar:none;
+changeBg:房间/pexels-1135897-32136409.jpg;
+changeFigure:托马斯/IMG_2824.PNG -transform={"position":{"x":-67,"y":757},"scale":{"x":2.014,"y":2.014}} -next;
+:我冲出这个被砖墙围住的小家，终于在花园找到托马斯的身影。;
+miniAvatar:莱特/莱特-常服/1-happy.PNG;
+莱特·斯图尔特:“托马斯——”;
+miniAvatar:none;
+:他像是知道我要说什么似的，轻轻瞥了我一眼。;
+托马斯·麦克雷:“培根吐司，跟往常一样。”;
+:我朝他露出一个大大的微笑，又冲回房里。;
+playEffect:human/足音・スポーツシューズで走る.mp3 -volume=50;
+:这里，是约克郡谷地，是托马斯为我所建的高墙。;
+:也是我的家。;
+changeBg:房间/pexels-julianemonarifotografia-30654280.jpg -transform={"position":{"x":30,"y":-334},"scale":{"x":1.025,"y":1.025}};
+changeFigure:none;
+:阳光挥洒在陈旧的木桌上，精心准备的早餐被排放得整整齐齐。;
+:我拿起盘子里被煎得酥脆的面包，随口咬下。;
+:好吃。;
+:我开心地眯起眼睛，拉开旁边的椅子，刚准备坐下……;
+playEffect:animals/flying birds.mp3 -volume=60;
+:“咕咕—”;
+:一只猫头鹰站在窗边，歪着头看着我还没吃的培根。;
+miniAvatar:莱特/莱特-常服/1-surprise.PNG;
+莱特·斯图尔特:嗯？;
+miniAvatar:none;
+:这位意外来客嘴里叼着一封信。;
+:我上前盯着它看了一会儿，它瞪大的双眼也盯着我。;
+:我犹豫了一会儿，还是打开了窗。;
+:它一下子将信扔到我的手上，然后飞到我的早餐旁边，毫无愧疚地霸占了我的培根。
+:信？
+changeBg:信/pexels-jmark-211290.jpg -next;
+:淡黄的信封衬着绿色的墨水，上面写着——
+intro:约克郡谷地，霍顿因里布尔斯代尔|石屋内，餐桌旁|莱特·斯图尔特小姐收 -fontSize=medium -backgroundImage=信/pexels-jmark-211290.jpg -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+:警惕一下子涌上心头，我拿着信来到托马斯身旁，沉默地将信递给了他。
+bgm:平和/ontama_piano2_kouchawoanatani.mp3 -enter=500 -volume=50;
+:他没有我想的那般惊讶，表情沉稳地打开了信封。
+:上面写着：
+intro:阿不思·邓布利多　霍格沃茨魔法学校校长（国际巫师联合会会长、梅林爵士团一级大魔法师、威森加摩首席魔法师）|亲爱的斯图尔特小姐：我们愉快地通知您，您已获准在霍格沃茨魔法学校就读。随信附上所需书籍及装备一览表。学期定于九月一日开始。我们将于七月三十一日前静候您的猫头鹰带来您的回信。|副校长（女）米勒娃·麦格谨上 -fontSize=small -backgroundImage=信/pexels-jmark-211290.jpg -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+:这是一封魔法学院的入学通知书。
+:我死死盯着「魔法学校」四个字，脑内翻腾不息。
+:托马斯的手微微颤抖，翻来覆去地看着。
+:我或许有些惊讶，但又觉得不太意外。
+:发生在我身上的异常就如同不可磨灭的烙印，已然成就了一部分的我。;
+:那些常人无法理解的一切，在这刻拥有了答案。;
+miniAvatar:莱特/莱特-常服/1-normal.PNG;
+莱特·斯图尔特:“爸爸，我要去那里读书吗。”;
+miniAvatar:none;
+:许久未闻的称呼让托马斯顿了顿。;
+:他思索了许久，久到天上的太阳开始散发起无情的热度。
+托马斯·麦克雷:“……是的，我想是的，孩子。”;
+托马斯·麦克雷:“那里或许才是你该去的地方。”;
+:托马斯拉起我的手，缓步走进房内。;
+:他好像也对这封信的到来早有预感。
+changeBg:房间/pexels-julianemonarifotografia-30654280.jpg -transform={"position":{"x":30,"y":-334},"scale":{"x":1.025,"y":1.025}} -next;
+:他从书柜里拿出纸笔，将其整齐地铺在桌面上。
+:一字一句地写下一封回信，然后交给已经吃饱喝足的猫头鹰。
+playEffect:animals/flying birds.mp3 -volume=60;
+:猫头鹰叼起那封回信，头也不回地走了。
+:窗外的太阳正高高挂起，刺得我眼睛发酸。
+:新的一天才刚刚开始。
+setTextbox:hide;
+changeBg:none -next;
+bgm:none -enter=500;

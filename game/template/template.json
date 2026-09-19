@@ -1,0 +1,12 @@
+{
+  "name": "朝阳",
+  "id": "25f6139f-c231-418c-929b-a5175aa16ba3",
+  "webgal-version": "4.6.1",
+  "fonts": [
+    {
+      "font-family": "1",
+      "url": "assets/HarmonyOS_Sans_SC_Bold.ttf",
+      "type": "truetype"
+    }
+  ]
+}

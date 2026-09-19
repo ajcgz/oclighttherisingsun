@@ -1,0 +1,10 @@
+Game_name:朝阳;
+Game_key:47cfd7371e55c7c;
+Title_img:格兰芬多休息室/IMG_2823.JPG;
+Title_bgm:欢快/f004_forest4.mp3;
+Textbox_theme:imss;
+Steam_AppID:;
+Package_name:;
+Show_panic:true;
+Default_Language:zh_CN;
+Game_Logo:collection-pirate-artifacts-bounty.jpg;
